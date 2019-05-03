@@ -23,7 +23,8 @@ function iLoveTheBeatles(num)
   array = [];
   do
   {
-    
+    array[num] = 
+    num ++;
   }
-  while 
+  while (num < 16)
 }
