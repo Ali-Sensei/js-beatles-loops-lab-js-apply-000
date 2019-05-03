@@ -13,7 +13,7 @@ function johnLennonFacts(arrFacts)
 {
   for (var j=0; j < arrFacts.length; j++)
   {
-    arrFacts[j] = arrFacts[j] + "!";
+    arrFacts[j] = arrFacts[j] + "!!!";
   }
   return arrFacts;
 }
