@@ -23,7 +23,7 @@ function iLoveTheBeatles(num)
   var arr = [];
   if (num > 15)
   {
-    arr[0] = "I love the Beatles";
+    arr[0] = "I love the Beatles!";
     return arr;
   }
     
