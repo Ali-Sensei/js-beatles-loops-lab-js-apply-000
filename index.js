@@ -21,9 +21,15 @@ function johnLennonFacts(arrFacts)
 function iLoveTheBeatles(num)
 {
   array = [];
+  if (num > 15)
+  {
+    array[0] = "I love the Beatles";
+    return array;
+  }
+    
   do
   {
-    array[num] = 
+    array[num] = "I love the Beatles!"
     num ++;
   }
   while (num < 16)
