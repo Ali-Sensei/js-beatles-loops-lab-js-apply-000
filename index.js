@@ -20,16 +20,16 @@ function johnLennonFacts(arrFacts)
 
 function iLoveTheBeatles(num)
 {
-  array = [];
+  var arr = [];
   if (num > 15)
   {
-    array[0] = "I love the Beatles";
-    return array;
+    arr[0] = "I love the Beatles";
+    return arr;
   }
     
   do
   {
-    array[num] = "I love the Beatles!"
+    arr[num] = "I love the Beatles!"
     num ++;
   }
   while (num < 16)
